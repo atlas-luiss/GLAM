@@ -1,2 +1,2 @@
 # GLAM
-✨ Official implementation of GLAM: Grouped LoRA Adapter Merging for efficient continual learning at scale.
+🚧 The code release is in preparation. It will be available soon!
