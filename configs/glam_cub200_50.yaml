@@ -1,0 +1,30 @@
+seed: 0
+
+dataset:
+  name: "cub200"
+  data_path: "./data/CUB_200_2011"
+  num_tasks: 50
+
+backbone: "vit_base_patch16_224"
+
+training:
+  epochs: 10
+  batch_size: 64
+  lr: 0.001
+  weight_decay: 0.0
+
+active_method:
+  name: "glam"
+  rank: 16
+  num_groups: 5
+  random_grouping: true
+  group_merge_type: "linear"
+  top_k_ratio: 0.8
+  final_prune_ratio: 1.0
+  ca_epochs: 5
+  ca_lr: 0.001
+  ca_batch_size: 256
+  ca_samples_per_class: 128
+  ca_temperature: 0.2
+  ca_var_floor: 0.0001
+  ca_weight_decay: 0.0
