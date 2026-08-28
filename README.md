@@ -44,8 +44,7 @@ cost regardless of the number of tasks.
 
 
 <p align="center">
-  <img src="assets/GLAM-I.png" alt="GLAM task-specific adapter training" height="200">
-  <img src="assets/GLAM-II.png" alt="GLAM adapter grouping and merging" height="200">
+  <img src="assets/GLAM-overview.png" alt="GLAM task adaptation and adapter consolidation overview">
 </p>
 <p align="center">
   <em>Overview of GLAM. Left: during task adaptation, a task-specific adapter
