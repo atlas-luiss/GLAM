@@ -3,12 +3,14 @@
 </h1>
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2509.13211">
-    <img src="https://img.shields.io/badge/arXiv-2509.13211-b31b1b.svg" alt="arXiv">
-  </a>
-  <a href="https://lifelong-ml.cc/">
-    <img src="https://img.shields.io/badge/CoLLAs-2026-2ea44f.svg" alt="CoLLAs 2026">
-  </a>
+  <a href="https://arxiv.org/abs/2509.13211"><img src="https://img.shields.io/badge/arXiv-2509.13211-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://atlas-luiss.github.io/GLAM/"><img src="https://img.shields.io/badge/Project_Page-Visit-4c78a8.svg" alt="Project page"></a>
+  <a href="https://lifelong-ml.cc/Conferences/2026/acceptedpapersandvideos/conf-2026-15"><img src="https://img.shields.io/badge/Video-Watch-8a64b8.svg" alt="Video"></a>
+  <a href="https://atlas-luiss.github.io/GLAM/static/pdfs/GLAM-poster.pdf"><img src="https://img.shields.io/badge/Poster-View-e07a5f.svg" alt="Poster"></a>
+</p>
+
+<p align="center">
+  <a href="https://lifelong-ml.cc/"><img src="https://img.shields.io/badge/CoLLAs-2026-2ea44f.svg" alt="CoLLAs 2026"></a>
 </p>
 
 <p align="center">
@@ -187,7 +189,7 @@ Without `--results_path`, outputs are written to
 
 ```bibtex
 @article{testa2025glam,
-  title   = {{GLAM}: Efficient Continual Learning at Scale via Grouped {LoRA} Adapter Merging},
+  title   = {GLAM: Efficient Continual Learning at Scale via Grouped LoRA Adapter Merging},
   author  = {Testa, Irene and Quarantiello, Luigi and Coleman, Eric Nuertey and Mukherjee, Samrat and Hurtado, Julio and Lomonaco, Vincenzo},
   journal = {arXiv preprint arXiv:2509.13211},
   year    = {2025},
